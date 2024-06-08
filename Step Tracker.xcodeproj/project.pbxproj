@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F571685D2C14030E0018D6CC /* HealthDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F571685C2C14030E0018D6CC /* HealthDataListView.swift */; };
 		F5F8D2452C12984100DEDA59 /* Step_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F8D2442C12984100DEDA59 /* Step_TrackerApp.swift */; };
 		F5F8D2472C12984100DEDA59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F8D2462C12984100DEDA59 /* ContentView.swift */; };
 		F5F8D2492C12984100DEDA59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F8D2482C12984100DEDA59 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F571685C2C14030E0018D6CC /* HealthDataListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataListView.swift; sourceTree = "<group>"; };
 		F5F8D2412C12984100DEDA59 /* Step Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Step Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F8D2442C12984100DEDA59 /* Step_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step_TrackerApp.swift; sourceTree = "<group>"; };
 		F5F8D2462C12984100DEDA59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				F5F8D2442C12984100DEDA59 /* Step_TrackerApp.swift */,
 				F5F8D2462C12984100DEDA59 /* ContentView.swift */,
+				F571685C2C14030E0018D6CC /* HealthDataListView.swift */,
 				F5F8D2482C12984100DEDA59 /* Assets.xcassets */,
 				F5F8D24A2C12984100DEDA59 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F571685D2C14030E0018D6CC /* HealthDataListView.swift in Sources */,
 				F5F8D2472C12984100DEDA59 /* ContentView.swift in Sources */,
 				F5F8D2452C12984100DEDA59 /* Step_TrackerApp.swift in Sources */,
 			);
