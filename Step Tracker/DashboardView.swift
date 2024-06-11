@@ -23,6 +23,8 @@ enum HealthMetricContext: CaseIterable, Identifiable {
 }
 
 struct DashboardView: View {
+    
+    @Environment(HealthKitManager.self) private var healthKitManager
     // FIXME: Rename variables
     @AppStorage("permissionViewDidAppear") private var permissionViewDidAppear = false
     @State private var permissionViewIsPresented = false
@@ -90,7 +92,7 @@ struct DashboardView: View {
                 }
                 .padding()
             }
-            .onAppear {
+            .task {
                 permissionViewIsPresented = !permissionViewDidAppear
             }
             .navigationTitle("Dashboard")
